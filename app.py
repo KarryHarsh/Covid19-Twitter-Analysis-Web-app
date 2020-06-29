@@ -45,7 +45,7 @@ select = st.sidebar.selectbox(
 )
 # Displays the Instructions and features of the application.
 if select == "Show Instructions":
-    st.markdown(get_file_content_as_string("instructions.md"))
+    st.markdown(get_file_content_as_string("Instructions.md"))
 
 elif select == "Sentiment Analysis":
     # ******************Show Random Tweet by Sentiment***********************#

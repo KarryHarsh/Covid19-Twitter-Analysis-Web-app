@@ -4,7 +4,7 @@ This project demonstrates the Social media twitter response of Covid 19 Pandemic
 
 The Web application is powered by SVM(Support vector machine) Model for **intent recognition** task and nltk package based
 SentimentIntensityAnalyzer for **Sentiment** prediction which is 
-[implemented in less than 300 lines of Python](https://github.com/streamlit/demo-self-driving/blob/master/app.py) 
+[implemented in less than 300 lines of Python](https://github.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/blob/master/app.py) 
 and illustrates all the major building blocks of Streamlit.
 
 👈 **Please select options in the sidebar to start.**

@@ -77,6 +77,6 @@ def get_file_content_as_string(path):
     :param path: file name
     :return: display the file in webapp
     """
-    url = "https://raw.githubusercontent.com/streamlit/demo-self-driving/master/" + path
+    url = "https://github.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/blob/master/" + path
     response = urllib.request.urlopen(url)
     return response.read().decode("utf-8")
