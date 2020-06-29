@@ -23,7 +23,7 @@ st.markdown(
 def load_data():
     db_connection = sqlite3.connect("TwitterDB")
     data = pd.read_sql_query(
-        "SELECT * FROM {}".format(settings.TABLE_NAME), db_connection
+        "SELECT * FROM {}".format("Twitter_covid19"), db_connection
     )
     data["created_at"] = pd.to_datetime(data["created_at"])
     return data
