@@ -2,13 +2,12 @@
 
 import sqlite3
 import urllib
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS
-
-
 
 st.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
 st.sidebar.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
