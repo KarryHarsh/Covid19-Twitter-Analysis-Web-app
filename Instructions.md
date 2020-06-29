@@ -1,6 +1,6 @@
 # Twitter **Sentiment** and **Intent** Analysis on Covid19 🦠 😷🔬
 
-This project demonstrates the Social media response of Covid 19 Pandemic into an interactive [Streamlit](https://streamlit.io) app.
+This project demonstrates the Social media twitter response of Covid 19 Pandemic into an interactive [Streamlit](https://streamlit.io) app.
 
 The Web application is powered by SVM(Support vector machine) Model for **intent recognition** task and nltk package based
 SentimentIntensityAnalyzer for **Sentiment** prediction which is 
