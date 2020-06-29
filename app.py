@@ -9,7 +9,7 @@ import plotly.express as px
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS
 
-st.markdown("# Twitter **Sentiment** and **Intent** Analysis on Covid19 🦠 😷🔬")
+#st.markdown("# Twitter **Sentiment** and **Intent** Analysis on Covid19 🦠 😷🔬")
 st.sidebar.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
 
 
