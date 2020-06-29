@@ -12,9 +12,6 @@ from wordcloud import WordCloud, STOPWORDS
 st.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
 st.sidebar.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
 
-st.markdown(
-    "This application is a Streamlit dashboard to analyze the Tweets on Covid19 🦠 😷🔬"
-)
 
 # Loading Dataset from Sqlite Database.
 @st.cache(persist=True)
