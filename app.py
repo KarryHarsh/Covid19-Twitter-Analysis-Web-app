@@ -8,8 +8,7 @@ import plotly.express as px
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS
 
-import settings
-from utiliy import get_file_content_as_string
+
 
 st.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
 st.sidebar.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷🔬")
@@ -28,6 +27,17 @@ def load_data():
     data["created_at"] = pd.to_datetime(data["created_at"])
     return data
 
+@st.cache(show_spinner=False)
+
+def get_file_content_as_string(path):
+    """
+    Gets the respective file from Github to display in the web app.
+    :param path: file name
+    :return: display the file in webapp
+    """
+    url = "https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/" + path
+    response = urllib.request.urlopen(url)
+    return response.read().decode("utf-8")
 
 data = load_data()  # data loaded as dataframe
 
