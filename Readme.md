@@ -19,16 +19,20 @@ The project web application is used for Analysis of tweets **Sentiment** and **I
 pip install streamlit plotly wordcloud matplotlib
 streamlit run https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/app.py
 ```
-## Package
+
+## Project Package
 Project is created with:
 * Python = 3.7
-* 
-* Tweepy = 3.8.0
-* Googlemap API = 4.4.1
-* Streamlit = 0.62.0
-   
-## Setup
+* streamlit = 0.62.1
+* plotly = 4.8.2
+* matplotlib = 3.2.2
+* wordcloud = 1.7.0
+* nltk = 3.5
+* tweepy = 3.8.0
+* googlemaps = 4.4.1
+* scikit-learn = 0.20.3
 
+## Setup
 #### Streamlit app
 To run this project, install it locally using Conda environment:
 
