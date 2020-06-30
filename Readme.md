@@ -4,13 +4,27 @@
 * [General info](#general-info)
 * [Illustration](#illustration)
 * [Run demo](#run-demo)
-* [Package](#package)
+* [Package](#project-package)
 * [Setup](#setup)
 * [Feature](#feature)
 * [Source](#source)
 
 ## General info
-The project web application is used for Analysis of tweets **Sentiment** and **Intent** for **Covid19**.
+
+Background on the Implementation. Streaming Tweets are fetched from twitter using tweepy API, on top of the fetched tweets SVM model is predicting Intent of the tweets and nltk SentimentIntensityAnalyzer is predicting its sentiment which is updating the python-based Sqlite DataBase with after filtering the country, latitude, and longitude of the user using Googlemaps API
+
+The intent is broadly classified into 8 categories:
+
+* disease_signs_or_symptoms---Reports of symptoms such as fever, cough, diarrhea, and shortness of breath or questions related to these
+symptoms
+* Disease transmission---Reports of disease transmission or questions related to disease transmission
+* Prevention---Questions or suggestions related to the prevention of disease or mention of a new prevention strategy
+* Treatment---Questions or suggestions regarding the treatments of the disease
+* Deaths reports---Reports of deaths due to the disease
+* Affected people---Reports of affected people due to the disease
+* Other useful information---Other useful information that is related to the disease 
+* Not related or irrelevant---Unrelated to the situation or irrelevant
+
 
 ## Illustration
 
@@ -46,7 +60,7 @@ $ pip install -r requirements.txt
 $ streamlit run app.py
 ```
 
-#### Tweepy and Googlemap API 
+#### Model prediction on streaming twitter data using Tweepy and Googlemap API. 
 * Create an [twitter Developer](https://developer.twitter.com/en/apps) Account and generate API key and token. [refer](https://www.youtube.com/watch?v=vlvtqp44xoQ) 
 * Sign-In [Google Cloud platform](https://cloud.google.com/) and genrate API key. [refer](https://www.youtube.com/watch?v=1JNwpp5L4vM)
 * Provide The API token and key details in **settings.py**
@@ -60,6 +74,10 @@ GOOGLE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 **Note:**
 Settings.py is the configuration setting file of the whole project Changing anything may break the code.
+
+```
+python twitter_stream.py
+```
 
 ## Feature
 * Get Graphical Insights of Covid19 tweets based on its sentiment and Intent.
