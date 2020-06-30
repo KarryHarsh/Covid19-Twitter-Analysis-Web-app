@@ -3,7 +3,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Illustration](#illustration)
-* [Run demo](#run-demo)
 * [Package](#project-package)
 * [Setup](#setup)
 * [Feature](#feature)
