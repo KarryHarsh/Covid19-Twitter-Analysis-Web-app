@@ -124,7 +124,8 @@ elif select == "Sentiment Analysis":
             height=600,
             width=800,
         )
-        st.plotly_chart(fig_choice)
+        if st.sidebar.checkbox("Show graph", False):
+            st.plotly_chart(fig_choice)
 
     # ******************Word Cloud***********************#
     st.sidebar.header("Word Cloud")
@@ -207,7 +208,8 @@ elif select == "Intent Analysis":
             height=600,
             width=2000,
         )
-        st.plotly_chart(fig_choice)
+        if st.sidebar.checkbox("Show graph", False):
+            st.plotly_chart(fig_choice)
 
     # ******************Word Cloud***********************#
     st.sidebar.header("Word Cloud")
