@@ -3,6 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Illustration](#illustration)
+* [Run demo](#run-demo)
 * [Package](#package)
 * [Setup](#setup)
 * [Feature](#feature)
@@ -13,6 +14,14 @@ The project web application is used for Analysis of tweets **Sentiment** and **I
 
 ## Illustration
 
+## Run demo
+```
+pip install streamlit
+pip install plotly
+pip install wordcloud
+pip install matplotlib
+streamlit run https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/app.py
+```
 ## Package
 Project is created with:
 * Python = 3.7
