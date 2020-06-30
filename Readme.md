@@ -28,11 +28,7 @@ symptoms
 
 ## Illustration
 ![Making-of Animation](https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/Twitter-Covid19-Analysis-Web-app-master.gif "Making-of Animation")
-## Run demo
-```
-pip install streamlit plotly wordcloud matplotlib
-streamlit run https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/app.py
-```
+
 
 ## Project Package
 Project is created with:
