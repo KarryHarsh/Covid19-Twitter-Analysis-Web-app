@@ -14,7 +14,7 @@ st.sidebar.header("Twitter Sentiment and Intent Analysis on Covid19 🦠 😷�
 
 
 # Loading Dataset from Sqlite Database.
-@st.cache(persist=True)
+# @st.cache(persist=True)
 def load_data():
     db_connection = sqlite3.connect("TwitterDB")
     data = pd.read_sql_query(
