@@ -16,10 +16,7 @@ The project web application is used for Analysis of tweets **Sentiment** and **I
 
 ## Run demo
 ```
-pip install streamlit
-pip install plotly
-pip install wordcloud
-pip install matplotlib
+pip install streamlit plotly wordcloud matplotlib
 streamlit run https://raw.githubusercontent.com/KarryHarsh/Twitter-Covid19-Analysis-Web-app/master/app.py
 ```
 ## Package
