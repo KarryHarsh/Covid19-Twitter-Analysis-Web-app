@@ -243,7 +243,7 @@ elif select == "Source Code":
 elif select == "About":
     # ******************About Developer***********************#
     st.subheader("About:Twitter Sentiment & Intent Analysis App on Coronavirus 🦠 😷🔬")
-    st.info("Built with Streamlit,Textblob, LSTM based Intent recognizer & tweepy")
+    st.info("Built with Streamlit,nltk, SVM based Intent recognizer, googlemaps & tweepy")
     st.markdown("### **Karry Harsh**")
     st.markdown("Gmail: [✉](karryharsh@gmail.com) ⬅ click")
     st.markdown("Linkedin: [🧑‍💼](https://www.linkedin.com/in/karryharsh/) ⬅ click")
