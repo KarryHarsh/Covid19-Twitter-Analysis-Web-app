@@ -10,7 +10,7 @@
 
 ## General info
 
-Background on the Implementation. Streaming Tweets are fetched from twitter using tweepy API, on top of the fetched tweets SVM model is predicting Intent of the tweets and nltk SentimentIntensityAnalyzer is predicting its sentiment which is updating the python-based Sqlite DataBase with after filtering the country, latitude, and longitude of the user using Googlemaps API
+Background on the Implementation. Streaming Tweets are fetched from twitter using tweepy API, on top of the fetched tweets SVM model is predicting Intent of the tweets and nltk SentimentIntensityAnalyzer is predicting its sentiment which is updating the python-based Sqlite DataBase which after filtering the country, latitude, and longitude of the user using Googlemaps API
 
 The intent is broadly classified into 8 categories:
 
