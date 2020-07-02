@@ -68,7 +68,8 @@ API_SECRET_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 GOOGLE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 **Note:**
-Settings.py is the configuration setting file of the whole project Changing anything may break the code.
+* Usage of Google API key may cost you if you exceed your free tier limit. Do check Gooogle Cloud platform Billing for info.
+* Settings.py is the configuration setting file of the whole project Changing anything may break the code.
 
 ```
 python twitter_stream.py
